@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: acme
+    schema: acme
+    description: Acme Corp!
+    tables:
+      - name: customers
+        description: Customers of Acme Corp!
+        columns:
+          - name: id
+      - name: orders
+        description: Orders from Acme Corp!
+        columns:
+          - name: id

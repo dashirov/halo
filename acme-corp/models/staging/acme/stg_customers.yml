@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_customers
+    columns:
+      - name: customer_id
+      - name: first_name
+      - name: last_name
+

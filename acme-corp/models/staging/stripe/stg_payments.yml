@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_payments
+    description: Staging Stripe Payment Data
+    columns:
+      - name: order_id
+      - name: amount
+      - name: payment_method
+      - name: status

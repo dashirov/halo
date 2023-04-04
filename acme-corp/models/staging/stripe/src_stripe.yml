@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: stripe
+    schema: stripe
+    description: Data from Acme's Stripe Integration
+    tables:
+      - name: payment
+        description: Stripe Payments Data
+        columns:
+          - name: id
